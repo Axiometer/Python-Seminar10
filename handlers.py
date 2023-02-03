@@ -1,10 +1,7 @@
 import texts
-from aiogram import Bot, Dispatcher, executor, types
-from calc_bot import *
+from aiogram import Dispatcher, executor, types
+from calc_bot import bot, logger
 
-# global TOKEN, logger
-
-bot = Bot(TOKEN)
 dp = Dispatcher(bot)
 
 # Приветствие
